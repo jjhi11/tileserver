@@ -8,7 +8,7 @@ packages = [
 version = "2.0.0"
 
 [tool.poetry.dependencies]
-fastapi = "*"
+fastapi = "^0.92.0"
 fastapi-utils = "^0.2.1"
 "macrostrat.database" = "^2.0"
 "macrostrat.utils" = "^1.1.0"

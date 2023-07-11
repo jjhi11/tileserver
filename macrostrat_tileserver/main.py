@@ -24,7 +24,7 @@ from pydantic import BaseModel
 
 log = get_logger(__name__)
 
-app = FastAPI(prefix="/tiles")
+app = FastAPI(prefix="/")
 
 
 # Register Start/Stop application event handler to setup/stop the database connection
